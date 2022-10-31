@@ -1,0 +1,32 @@
+<%- include('./partials/header.ejs') %>
+<%- include('./partials/navigationBar.ejs') %>
+
+<body> 
+<% if(title == "Home"){ %>
+   <%- include('./partials/homePage.ejs') %>
+ <% } %>
+
+<% if(title == "Contact me"){ %>
+   <%- include('./partials/contactPage.ejs') %>
+ <% } %>
+
+<% if(title == "Projects"){ %>
+   <%- include('./partials/projectPage.ejs') %>
+ <% } %>
+</body> 
+
+<% if(title == "About me"){ %>
+   <%- include('./partials/aboutMePage.ejs') %>
+ <% } %>
+</body> 
+
+
+<%- include('./partials/footer.ejs') %>
+
+  <!--Script files-->
+  <script src = "/Scripts/app.js"> </script>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/jquery/dist/jquery.min.js"></script>
+
+</html>
+

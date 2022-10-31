@@ -1,0 +1,56 @@
+
+<div class="questionForm">
+    <form>
+        <label for="fname"> <b>First Name</b> </label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                            
+        <label for="lname"> <b>Last Name</b></label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        
+        <label for="subject"> <b>Comment Section</b> </label>
+        <textarea id="commentSection" name="commentSection" placeholder="You can write your question or comments here..." style="height:150px"></textarea>
+                            
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+<style>
+.questionForm{
+    background-color: lightsalmon; 
+    width: 100%;
+    height: 600px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px, 10px;
+    border: 5px solid blue;
+    border-radius: 5px;
+    resize: vertical;
+    background-color: black;
+    color: white;
+  }
+  
+  label {
+    padding: 12px 10px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border: rebeccapurple;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  input[type=submit]:hover {
+    background-color: greenyellow;
+  }
+  
+</style>
+
+
+

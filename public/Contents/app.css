@@ -1,0 +1,58 @@
+
+/*CSS3*/ 
+@charset "UTF-8"; 
+
+
+.jumbotron jumbotron-fluid
+{    
+    height: 100%;
+    width: 100%;  
+    margin-top: 0px;  
+    padding: 30px;  
+    background-color: rgb(3, 129, 129);
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+}
+
+li {
+    float: left;
+}
+li a{
+    display: block;
+    padding: 40px;
+    margin-right: 150px;
+    text-size-adjust: 70px;
+    color: white;
+}
+
+li a:hover{
+    background-color: bisque;
+    transition: 1000ms;
+}
+
+main{
+    height: 190px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(244, 244, 11);
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+footer li{
+    list-style-type: none;
+    text-align: inline-block;
+    float: left;
+}
